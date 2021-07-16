@@ -1,0 +1,48 @@
+{
+  "name": "server-service",
+  "version": "2.0.0",
+  "description": "NSE Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "nexe -r .env NSEBackendAPIOpenApi3Json.json middlewares/**/* models/**/* routes/**/* utils/**/*"
+  },
+  "scripts1": {
+    "start": "node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/docs": "^0.2.0",
+    "axios": "^0.19.2",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "googleapis": "^72.0.0",
+    "json2csv": "^5.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.7.5",
+    "mongoose-deep-populate": "^3.2.0",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "normalize-mongoose": "0.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "swagger-ui-express": "^4.1.6",
+    "xts-marketdata-api": "^2.0.11",
+    "open": "^8.0.8"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-beta.18",
+    "nodemon": "^1.18.9"
+  }
+}

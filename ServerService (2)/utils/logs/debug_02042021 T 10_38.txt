@@ -1,0 +1,4 @@
+"{\"method\":\"POST\",\"uri\":\"undefined/marketdata/auth/login\",\"json\":true,\"headers\":{},\"body\":{}}""{\"name\":\"RequestError\",\"message\":\"Error: Invalid URI \\\"undefined/marketdata/auth/login\\\"\",\"cause\":{},\"error\":{},\"options\":{\"method\":\"POST\",\"uri\":\"undefined/marketdata/auth/login\",\"json\":true,\"headers\":{},\"body\":{},\"simple\":true,\"resolveWithFullResponse\":false,\"transform2xxOnly\":false}}""request object sent to the server"============================================
+Initialized logger
+==================================================
+"exception object received from the server"
