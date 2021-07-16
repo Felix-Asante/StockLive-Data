@@ -1,0 +1,34 @@
+.login-form {
+  max-width: 300px;
+}
+.login-form-button {
+  width: 100%;
+  background-color: #ff5722 !important;
+  color: white !important;
+}
+.signup-link {
+  color: #ff5722;
+  margin-left: 3px;
+}
+.login-card {
+  width: "360px";
+  box-shadow: 1px 1px 4px #cbcbcb;
+  padding: 30px !important;
+}
+.login-typography-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.5px;
+  font-weight: 400 !important;
+}
+.login-bottom-section {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: #ff5722 !important;
+  box-shadow: 0 0 0 2px rgb(255 87 34 / 20%) !important;
+}

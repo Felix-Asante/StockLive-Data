@@ -1,0 +1,15 @@
+.site-layout {
+  margin-top: 64px;
+}
+.site-layout-background {
+  width: 70%;
+  float: right;
+  height: 100%;
+}
+
+.main-layout{
+  height: 100%;
+}
+.layout{
+  height: 100%;
+}
